@@ -47,9 +47,6 @@ You can just simply download this repo to get the files into your computer.
 -  You can restart the game, again and again.
 
 So, what are you waiting for? Let's start the game...
-
-![TicTacToe Game](/images/untitled.png)
-
 Thanks.
 
 ## About Me
