@@ -1,0 +1,66 @@
+/* 
+   Author: Rully Ihza Mahendra
+   Username: rllyhz
+   Repo: https://github.com/rllyhz/tic-tac-tor-game
+   GIt: git://github.com/rllyhz/tic-tac-tor-game.git
+   */
+
+*,
+*::after,
+*::before {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+html {
+   font-size: var(--fontSize);
+   scroll-behavior: smooth;
+}
+
+body {
+   font-size: 1.6rem;
+   background-color: var(--backgroundColor);
+   color: var(--fontColor);
+}
+
+.container {
+   width: 70%;
+   margin: 1rem auto;
+   color: inherit;
+}
+
+.button {
+   display: block;
+   width: 8em;
+   height: auto;
+   padding: 0.5rem;
+   border-radius: 5px;
+   background-color: white;
+   border: 1px solid currentColor;
+   color: purple;
+   box-shadow: 3px 3px 3px rgba(80, 1, 80, 0.781);
+   font-size: 2rem;
+   cursor: pointer;
+}
+.button:hover {
+   background-color: purple;
+   border: 1px solid white;
+   color: white;
+   box-shadow: 3px 3px 3px rgba(80, 1, 80, 0.781) inset;
+}
+
+.button.startButton {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   font-size: 3rem;
+}
+
+button.restartButton {
+   position: absolute;
+   top: 10%;
+   left: 50%;
+   transform: translate(-50%, 50%);
+}

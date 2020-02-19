@@ -1,0 +1,16 @@
+/* 
+   Author: Rully Ihza Mahendra
+   Username: rllyhz
+   Repo: https://github.com/rllyhz/tic-tac-tor-game
+   GIt: git://github.com/rllyhz/tic-tac-tor-game.git
+   */
+
+:root {
+   --fontSize: 62.5%;
+   --colorTheme: white;
+   --backgroundColor: purple;
+   --fontColor: var(--colorTheme);
+   --cellColor: var(--colorTheme);
+   --cellSize: 7rem;
+   --markSize: calc(var(--cellSize) * 0.9);
+}

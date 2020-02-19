@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta name="author" content="Rully Ihza Mahendra" />
+      <meta name="description" content="A Simple TicTacToe Game for Fun." />
+      <link rel="stylesheet" href="css/main.css" />
+      <title>Tic Tac Toe Game</title>
+   </head>
+   <body>
+      <button type="button" class="button restartButton">Restart Game!</button>
+
+      <div class="container">
+         <div class="board" id="board">
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+         </div>
+
+         <button class="button startButton" id="startButton">
+            Start Game!
+         </button>
+
+         <div class="endgame-message" id="endGameMessageElement">
+            <div data-end-game></div>
+            <button type="button" class="buttonRestart restartButton">
+               Start again!
+            </button>
+         </div>
+      </div>
+
+      <script src="js/_variables.js" defer></script>
+      <script src="js/Game.js" defer></script>
+      <script src="js/app.js" defer></script>
+   </body>
+</html>
+
+<!--
+   Author: Rully Ihza Mahendra
+   Username: rllyhz
+   Repo: https://github.com/rllyhz/tic-tac-tor-game
+   GIt: git://github.com/rllyhz/tic-tac-tor-game.git
+-->
